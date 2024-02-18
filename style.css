@@ -1,10 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-
-
 }
-
 body {
     background: #fff;
     font-family: Nunito Sans, sans-serif;
@@ -175,10 +172,7 @@ header{
     grid-gap: 10px;
 }
 
-/* .exam-card .cicle_img>img{
- width: 25%;
-height: auto;
-} */
+
 
 
 .feature_container{
@@ -194,10 +188,10 @@ height: auto;
 
 }
 .feature{
-    /* margin: 2px; */
+
     margin-top: 10px;
     font-size: 8px;
-    /* word-spacing: -2px */
+   
 }
 
 .heading3{
@@ -217,16 +211,6 @@ height: auto;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
-}
-/* Default styling for the footer */
-footer {
-    text-align: center;
-    font-size: 14px;
-    text-decoration: none;
-    color: blanchedalmond;
-    background-color: black;
-    border-radius: 3px;
-}
 
 
 
@@ -239,7 +223,7 @@ footer {
         font-size: 14px;
         font-weight: 400;
         line-height: 21px;
-        /* Increase font size for laptops */
+       
     }
 }
 
@@ -252,10 +236,11 @@ footer {
         font-size: 14px;
         font-weight: 400;
         line-height: 21px;
-        /* Decrease font size for phones */
+     
     }
 }
-/* Default styling for the footer */
+}
+
 footer {
     text-align: center;
     font-size: 14px;
@@ -271,7 +256,7 @@ footer {
 @media only screen and (min-width: 1024px) {
     footer {
         font-size: 20px;
-        /* Increase font size for laptops */
+       
     }
 }
 
@@ -279,11 +264,10 @@ footer {
 @media only screen and (max-width: 767px) {
     footer {
         font-size: 12px;
-        /* Decrease font size for phones */
+       
     }
 }
 footer >p>a{
-    
     text-decoration: none;
     color: white;
 }
